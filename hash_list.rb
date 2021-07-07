@@ -14,3 +14,8 @@ list_of_people = [
   { :name => "Carl", :age => 9 },
 ]
 
+list_of_people.each do |item|
+  if item[:age] >= 16
+    p item[:name]
+  end
+end
